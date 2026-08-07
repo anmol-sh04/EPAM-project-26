@@ -22,22 +22,42 @@ The **Bank Customer Page** is a simple web application developed using **HTML, C
 
 ---
 
-## Assignment 2: Tree of Trusted Servers
+## Assignment 2: Tree and Graph Problems using Java
 
-### About the Project
+### Problem 1: Tree of Trusted Servers
 
-The **Tree of Trusted Servers** problem determines the number of trusted servers in a tree based on the XOR of security keys along the path from the root server. The solution uses **DFS traversal** and calculates the path XOR for each server.
+### About the Problem
+
+The **Tree of Trusted Servers** problem determines the number of trusted servers based on the XOR of security keys along the path from the root server to each server. The solution uses **DFS traversal** to calculate the path XOR.
 
 ### Features
 
 * Represents the tree using an adjacency list
 * Calculates path XOR using DFS
-* Checks the XOR value against the given threshold `K`
-* Counts the number of trusted servers
+* Counts trusted servers based on threshold `K`
 
 ### Technologies Used
 
 * Java
 * DFS (Depth First Search)
-* Graph / Adjacency List
 * Bitwise XOR
+
+---
+
+### Problem 2: Emergency Route Validation
+
+### About the Problem
+
+The **Emergency Route Validation** problem determines the number of cities that can be reached from the capital city within a maximum distance of `D` roads. The solution uses **BFS traversal** to calculate the shortest distance from City 1 to every other city.
+
+### Features
+
+* Represents the road network using an adjacency list
+* Finds shortest distances using BFS
+* Counts cities within distance `D`
+
+### Technologies Used
+
+* Java
+* BFS (Breadth First Search)
+* Queue
