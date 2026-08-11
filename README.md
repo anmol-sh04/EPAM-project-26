@@ -61,3 +61,45 @@ The **Emergency Route Validation** problem determines the number of cities that 
 * Java
 * BFS (Breadth First Search)
 * Queue
+
+---
+
+## Assignment 3: Greedy and Dynamic Programming Problems using Java
+
+### Problem 1: Scholarship Distribution
+
+### About the Problem
+
+The **Scholarship Distribution** problem determines the maximum number of students who can receive scholarships without exceeding the available budget. The solution uses a **Greedy approach** by sorting the scholarship requirements and selecting students with the smallest requirements first.
+
+### Features
+
+* Sorts scholarship requirements in increasing order
+* Selects students with the minimum scholarship requirements first
+* Maximizes the number of students within the given budget
+
+### Technologies Used
+
+* Java
+* Greedy Algorithm
+* Arrays Sorting
+
+---
+
+### Problem 2: Maximum Learning Points
+
+### About the Problem
+
+The **Maximum Learning Points** problem determines the maximum learning points a student can earn without selecting two consecutive topics. The solution uses **Dynamic Programming** to find the maximum sum of non-consecutive topic values.
+
+### Features
+
+* Calculates the maximum possible learning points
+* Prevents selection of two consecutive topics
+* Uses optimized Dynamic Programming with constant extra space
+
+### Technologies Used
+
+* Java
+* Dynamic Programming
+* Array Traversal
