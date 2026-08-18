@@ -103,3 +103,24 @@ The **Maximum Learning Points** problem determines the maximum learning points a
 * Java
 * Dynamic Programming
 * Array Traversal
+
+
+## Assignment 4: Getting Started with Git and Version Control
+
+### About the Assignment
+
+This assignment focuses on understanding **Git, its basic operations, and the Git lifecycle**. Git is an open-source version control system used to track and manage changes in source code. It was originally developed in **2005 by Linus Torvalds**, the creator of the Linux kernel.
+
+### Topics Covered
+
+* Git and Version Control
+* Git lifecycle
+* Basic Git operations
+* Repositories and commits
+* Tracking and managing code changes
+
+### Technologies Used
+
+* Git
+* GitHub
+* Git Command Line
